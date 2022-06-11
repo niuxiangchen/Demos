@@ -1,0 +1,19 @@
+// 主要是覆盖/重置一些默认样式。选择*器将这些值应用于页面上的每个元素
+// 并且::before/::after确保它也适用于任何伪元素。
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// 字体适配 定义1rem的大小
+html {
+  font-size: 62.5%;
+}
+
+body {
+
+  box-sizing: border-box;
+}
